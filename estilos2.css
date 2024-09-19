@@ -1,0 +1,47 @@
+.contenedor {
+  background-color: aquamarine;
+  padding: 10px;
+  font-size: 23px;
+  text-align: center;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 5fr 1fr;
+  grid-template-areas:
+    " heater    heater     heater"
+    " nav       nav        nav "
+    " section   section2   abs"
+    " footer    footer     footer";
+}
+.contenedor .heater {
+  background-color: crimson;
+  grid-column: heater;
+}
+.contenedor .nav {
+  background-color: chartreuse;
+  grid-column: nav;
+}
+.contenedor .section {
+  background-color: burlywood;
+  grid-column: section;
+}
+.contenedor .section2 {
+  background-color: burlywood;
+  grid-column: section2;
+}
+.contenedor .abs {
+  background-color: aquamarine;
+  padding: 10px;
+  font-size: 23px;
+  text-align: center;
+  display: grid;
+  grid-gap: 10px;
+}
+
+.contenedor .footer {
+  background-color: coral;
+  grid-column: footer;
+}
+.hijo1 {
+  background-color: lightpink;
+}
